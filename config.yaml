@@ -1,0 +1,44 @@
+# Configuración del canal. Cambia aquí y todos los scripts lo respetan.
+canal:
+  nombre: "Marcas con Historia"   # PROVISIONAL hasta que el usuario lo confirme
+  lema: "Cómo nacen, crecen y caen las grandes empresas"
+  frecuencia: "Un documental nuevo cada semana"
+  nicho: "Historia de marcas, empresas, quiebras y escándalos empresariales"
+  idioma: "es"
+  publico: "España y Latinoamérica"
+  zona_horaria: "Europe/Madrid"
+
+voz:
+  motor: "edge-tts"
+  voz: "es-ES-AlvaroNeural"    # plan B: es-ES-ElviraNeural
+  velocidad: "-6%"              # un poco más pausada, tono documental
+  tono: "-4Hz"                  # algo más grave
+
+video:
+  ancho: 1920
+  alto: 1080
+  fps: 30
+  preset: "veryfast"
+  crf: 23
+  duracion_objetivo_min: [25, 30]
+  palabras_por_minuto: 150      # 25-30 min ≈ 3.800-4.500 palabras
+
+estilo:
+  fuente_titulos: "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+  fuente_texto: "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+  color_fondo: "#101418"
+  color_acento: "#E8B04A"       # dorado
+  color_texto: "#FFFFFF"
+  subtitulos: true
+
+musica:
+  volumen_db: -22               # bajo la voz
+  carpeta: "assets/musica"      # pon aquí pistas con licencia; si está vacía, sin música
+
+audio:
+  lufs: -14
+
+youtube:
+  privacidad_por_defecto: "private"   # hasta comprobar la verificación de la API
+  categoria: "27"                      # Education
+  idioma: "es"

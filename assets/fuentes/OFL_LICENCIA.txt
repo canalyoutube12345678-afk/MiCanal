@@ -1,0 +1,3 @@
+Playfair Display y Montserrat: Google Fonts, licencia SIL Open Font License 1.1 (uso comercial permitido).
+https://github.com/google/fonts/tree/main/ofl/playfairdisplay
+https://github.com/google/fonts/tree/main/ofl/montserrat

@@ -1,0 +1,120 @@
+{
+  "titulo": "Chupa Chups: el caramelo español que llegó al espacio",
+  "prueba": true,
+  "miniatura": {
+    "texto": "El caramelo que llegó al espacio",
+    "escena": 2
+  },
+  "youtube": {
+    "titulo": "Chupa Chups: el caramelo español que llegó al espacio (prueba)",
+    "descripcion": "Vídeo de prueba del canal: la historia de Chupa Chups en un minuto.",
+    "etiquetas": [
+      "Chupa Chups",
+      "historia de marcas",
+      "Enric Bernat",
+      "Salvador Dalí",
+      "empresas españolas"
+    ],
+    "fuentes": [
+      "Wikipedia: Chupa Chups — https://es.wikipedia.org/wiki/Chupa_Chups"
+    ]
+  },
+  "escenas": [
+    {
+      "id": 1,
+      "tipo": "tarjeta",
+      "capitulo": "Chupa Chups",
+      "subtitulo": "El caramelo que llegó al espacio",
+      "texto": "",
+      "duracion_voz": 0.0,
+      "inicio": 0.0
+    },
+    {
+      "id": 2,
+      "fecha": "1958",
+      "rotulo": "Enric Bernat",
+      "buscar": [
+        "Chupa Chups lollipop",
+        "Chupa Chups"
+      ],
+      "texto": "En 1958, el empresario catalán Enric Bernat tuvo una idea sencilla: un caramelo con palo, para que los niños pudieran comérselo sin mancharse las manos.",
+      "duracion_voz": 11.568,
+      "archivo": "imagenes/002.jpg",
+      "fuente": {
+        "titulo": "File:Melody Pops, Klausener Zuckerpfeifen.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Melody_Pops%2C_Klausener_Zuckerpfeifen.jpg/3840px-Melody_Pops%2C_Klausener_Zuckerpfeifen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Melody_Pops,_Klausener_Zuckerpfeifen.jpg",
+        "ancho": 5184,
+        "alto": 3888,
+        "autor": "Meulenwald",
+        "licencia": "CC BY-SA 4.0"
+      },
+      "inicio": 3.5
+    },
+    {
+      "id": 3,
+      "buscar": [
+        "Chupa Chups lollipops",
+        "Chupa Chups"
+      ],
+      "texto": "Primero lo llamó Chups. Pero un anuncio de radio que repetía «chupa un Chups» hizo que el público lo rebautizara, y la marca acabó llamándose Chupa Chups.",
+      "duracion_voz": 11.136,
+      "inicio": 15.53,
+      "archivo": "imagenes/003.jpg",
+      "fuente": {
+        "titulo": "File:HK WC 灣仔 Wan Chai 太原街 15 Tai Yuen Street Island Apartment shop DS Groceries food store September 2020 SS2 06.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/HK_WC_%E7%81%A3%E4%BB%94_Wan_Chai_%E5%A4%AA%E5%8E%9F%E8%A1%97_15_Tai_Yuen_Street_Island_Apartment_shop_DS_Groceries_food_store_September_2020_SS2_06.jpg/3840px-HK_WC_%E7%81%A3%E4%BB%94_Wan_Chai_%E5%A4%AA%E5%8E%9F%E8%A1%97_15_Tai_Yuen_Street_Island_Apartment_shop_DS_Groceries_food_store_September_2020_SS2_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "pagina": "https://commons.wikimedia.org/wiki/File:HK_WC_%E7%81%A3%E4%BB%94_Wan_Chai_%E5%A4%AA%E5%8E%9F%E8%A1%97_15_Tai_Yuen_Street_Island_Apartment_shop_DS_Groceries_food_store_September_2020_SS2_06.jpg",
+        "ancho": 4128,
+        "alto": 3096,
+        "autor": "NrodmSOA 221",
+        "licencia": "CC BY-SA 4.0"
+      }
+    },
+    {
+      "id": 4,
+      "fecha": "1969",
+      "rotulo": "Salvador Dalí",
+      "buscar": [
+        "Salvador Dalí 1939 Carl Van Vechten",
+        "Salvador Dali portrait"
+      ],
+      "texto": "En 1969, Bernat le pidió a Salvador Dalí que diseñara el logotipo. Dalí dibujó la famosa margarita amarilla en menos de una hora.",
+      "duracion_voz": 10.776,
+      "archivo": "imagenes/004.jpg",
+      "fuente": {
+        "titulo": "File:Salvador Dali A (Dali Atomicus) 09633u.jpg",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Salvador_Dali_A_%28Dali_Atomicus%29_09633u.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Salvador_Dali_A_(Dali_Atomicus)_09633u.jpg",
+        "ancho": 3703,
+        "alto": 2971,
+        "autor": "Philippe Halsman",
+        "licencia": "Public domain"
+      },
+      "inicio": 27.13
+    },
+    {
+      "id": 5,
+      "fecha": "1995",
+      "rotulo": "Estación espacial Mir",
+      "buscar": [
+        "Mir space station STS-71",
+        "Mir space station"
+      ],
+      "texto": "Y en 1995, los cosmonautas de la estación espacial Mir se llevaron Chupa Chups a la órbita. El caramelo de Bernat había llegado al espacio.",
+      "duracion_voz": 11.304,
+      "archivo": "imagenes/005.jpg",
+      "fuente": {
+        "titulo": "File:Mir from STS-81.jpg",
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Mir_from_STS-81.jpg/3840px-Mir_from_STS-81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "pagina": "https://commons.wikimedia.org/wiki/File:Mir_from_STS-81.jpg",
+        "ancho": 4157,
+        "alto": 4157,
+        "autor": "NASA/Crew of STS-81",
+        "licencia": "Public domain"
+      },
+      "inicio": 38.37
+    }
+  ],
+  "duracion_total": 50.13
+}

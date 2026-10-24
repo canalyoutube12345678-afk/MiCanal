@@ -1,0 +1,129 @@
+[
+  {
+    "id": "zara_recadero",
+    "titulo": "Cómo un Recadero de 14 Años Creó Zara",
+    "inspirado_en": "Historias de Negocios · «El Niño Granjero Que Creó Ford» · 6,4 M vistas (9,4× su mediana)",
+    "prompt": "black and white vintage 1950s photograph, portrait of a poor Spanish boy about 14 years old wearing a flat cap and a worn shirt, serious face, standing in front of a small old shirt shop in a rainy narrow street of a Galician city",
+    "miniatura": {
+      "banda": "Cómo se creó Zara",
+      "lineas": [
+        [
+          "De recadero",
+          "blanco"
+        ],
+        [
+          "a imperio",
+          "acento"
+        ]
+      ],
+      "posicion": "abajo"
+    },
+    "estado": "pendiente"
+  },
+  {
+    "id": "terra_burbuja",
+    "titulo": "De Gigante de Internet a Desaparecer: El Colapso de Terra",
+    "inspirado_en": "Imperios Olvidados · «De Valer $250 Billones a la Ruina: El Colapso de Nokia» · 1,2 M vistas (123× su mediana)",
+    "prompt": "abandoned modern glass office tower with broken windows and overgrown plants, stormy dark sky, in the foreground an old dusty beige 1990s CRT computer monitor and a dial-up modem lying on rubble",
+    "miniatura": {
+      "lineas": [
+        [
+          "La burbuja",
+          "blanco"
+        ],
+        [
+          "que explotó",
+          "acento"
+        ]
+      ],
+      "posicion": "abajo"
+    },
+    "estado": "pendiente"
+  },
+  {
+    "id": "galerias_preciados",
+    "titulo": "¿Qué Pasó con Galerías Preciados? Los Grandes Almacenes que Desaparecieron",
+    "inspirado_en": "Imperios Olvidados · «BATA, la marca que todos usamos en el colegio… y un día desapareció» · 221 K (22,7×)",
+    "prompt": "grand old 1960s department store building on a wide avenue in Madrid, abandoned, empty dark shop windows, faded blank signage, wet street reflections, stormy dramatic sky at dusk",
+    "miniatura": {
+      "lineas": [
+        [
+          "¿Qué pasó con",
+          "blanco"
+        ],
+        [
+          "Galerías?",
+          "acento"
+        ]
+      ],
+      "posicion": "abajo",
+      "circulo": [
+        0.22,
+        0.36,
+        0.56,
+        0.3
+      ]
+    },
+    "estado": "pendiente"
+  },
+  {
+    "id": "rosalia_mera",
+    "titulo": "La Mujer que Cofundó Zara... y de la que Casi Nadie Habla",
+    "inspirado_en": "Imperios Olvidados · «La Mujer Que Construyó el Imperio del Táper... y a la Que Borraron» · 288 K (29,5×)",
+    "prompt": "1970s small sewing workshop in Galicia Spain, a young woman seen from behind working at a vintage sewing machine, piles of colorful fabric, warm window light, nostalgic film photo",
+    "miniatura": {
+      "lineas": [
+        [
+          "Cofundó Zara",
+          "blanco"
+        ],
+        [
+          "casi nadie la conoce",
+          "acento"
+        ]
+      ],
+      "posicion": "abajo"
+    },
+    "estado": "pendiente"
+  },
+  {
+    "id": "forum_afinsa",
+    "titulo": "Los Sellos que Prometían Hacerte Rico: La Estafa de Fórum Filatélico y Afinsa",
+    "inspirado_en": "Imperios Olvidados · «3 Negocios que Prometieron Hacerte Rico y Arruinaron a 400.000 Personas» · 210 K (21,5×)",
+    "prompt": "open vintage stamp collection albums with old postage stamps scattered on a dark wooden desk, burning banknotes, official legal documents, dramatic low key lighting, smoke",
+    "miniatura": {
+      "lineas": [
+        [
+          "La estafa",
+          "blanco"
+        ],
+        [
+          "de los sellos",
+          "acento"
+        ]
+      ],
+      "posicion": "abajo"
+    },
+    "estado": "pendiente"
+  },
+  {
+    "id": "inventos_espanoles",
+    "titulo": "5 Inventos Españoles que Conquistaron el Mundo... y Nadie Sabe que Son Españoles",
+    "inspirado_en": "Imperios Olvidados · «5 Veces que Sony Inventó el Futuro y Lo Regaló» · 356 K (36,5×) y «5 Productos Que Dominaron el Mundo…» · 306 K (31,4×)",
+    "prompt": "a classic mop with bucket, a round lollipop, a vintage foosball table and a small model of an old autogyro aircraft arranged on a dark museum pedestal, spotlight, dramatic dark background",
+    "miniatura": {
+      "lineas": [
+        [
+          "Son españoles",
+          "blanco"
+        ],
+        [
+          "y no lo sabías",
+          "acento"
+        ]
+      ],
+      "posicion": "abajo"
+    },
+    "estado": "pendiente"
+  }
+]

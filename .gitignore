@@ -1,0 +1,15 @@
+# Pesados o regenerables: no van al repositorio
+videos/*/video_final.mp4
+videos/*/clips/
+videos/*/tmp/
+videos/*/audio/
+videos/*/imagenes/
+videos/*/qc/
+muestras_voz/
+__pycache__/
+.venv/
+
+# Credenciales: nunca al repositorio
+.env
+client_secret.json
+token.json
