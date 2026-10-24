@@ -101,3 +101,10 @@ _Última actualización: 2026-10-24_
   - [ ] Conectar GitHub a Claude (https://claude.ai/connect-github) y crear dos repositorios vacíos: `MiCanal` (privado) y `MiCanal-videos` (público)
   - [ ] Pegar en YouTube Studio lo de `marca/CANAL_YOUTUBE.md` (nombre, @handle, logo, banner, descripción y palabras clave) y verificar el canal con el teléfono
 - **Pasos de Claude cuando el usuario termine:** conectar el repositorio, subir el código, probar la release y Metricool con el vídeo de prueba en borrador, y crear la tarea programada semanal (con el conector de Metricool y avisos al móvil).
+
+## Metricool (actualizado el 24/10/2026)
+- Añadir una segunda marca en la cuenta de Metricool de The Nations History es de pago, y el usuario lo quiere gratis.
+- Solución elegida: una **segunda cuenta gratuita de Metricool** solo para Marcas con Historia, con el conector de Claude reconectado a esa cuenta.
+- El usuario dice que ha reconectado el conector, pero la sesión del 24/10 seguía viendo la cuenta antigua (canalyoutube123456789@gmail.com, brand 7594539, The Nations History).
+- **Al empezar la próxima sesión:** ejecutar `getBrandSettings` y comprobar que aparece `youtubeData = UCrxZm4ofcvqjG3UUg0-nT0Q`. Si sigue saliendo la cuenta antigua, el usuario tiene que cerrar sesión en metricool.com, desconectar y volver a conectar el conector iniciando sesión con la cuenta nueva.
+- Siguientes pasos: conectar GitHub (repos `MiCanal` privado y `MiCanal-videos` público) → subir el proyecto → prueba en borrador con Metricool → tarea semanal.
