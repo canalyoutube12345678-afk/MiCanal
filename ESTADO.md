@@ -5,7 +5,7 @@ _Última actualización: 2026-10-24_
 ## Ficha del canal
 | | |
 |---|---|
-| **Nombre** | Marcas con Historia (PROVISIONAL, falta que el usuario lo confirme) |
+| **Nombre** | Marcas con Historia · @MarcasConHistoriaES · canal UCrxZm4ofcvqjG3UUg0-nT0Q |
 | **Nicho** | Historia de marcas y empresas: origen, auge, quiebras y escándalos |
 | **Público** | España y Latinoamérica, adultos interesados en negocios e historia |
 | **Idioma** | Español |
@@ -94,9 +94,10 @@ _Última actualización: 2026-10-24_
 - **Dónde:** en la nube de Claude, con una tarea programada semanal que abre una sesión nueva y sigue `AUTOMATIZACION.md`.
 - **Publicación:** con Metricool (aplicación verificada: publica en público sin auditoría de la API). El vídeo se aloja en las releases de un repositorio público `MiCanal-videos`.
 - **modo: revision**. Las 2–3 primeras semanas el usuario da el "ok" antes de publicar; después se cambia a `modo: automatico`.
-- **Canal de publicación:** PENDIENTE. No es el canal que tiene Metricool ahora (UC8JkloSi2Y20MpvFGTFL-Jg); el usuario tiene que conectar el canal correcto en Metricool.
+- **Canal de publicación:** UCrxZm4ofcvqjG3UUg0-nT0Q (antes "aitor cortijo escamilla", vacío). NO es el canal que tiene Metricool ahora (UC8JkloSi2Y20MpvFGTFL-Jg). Antes de publicar, comprueba con getBrandSettings que `youtubeData` = UCrxZm4ofcvqjG3UUg0-nT0Q.
+- El usuario ha autorizado que Claude configure el canal (nombre, logo, banner, descripciones). Como Claude no tiene acceso a YouTube Studio, se le ha dado todo listo para pegar en `marca/CANAL_YOUTUBE.md`.
 - **Pasos del usuario (una vez):**
   - [ ] Conectar el canal correcto en Metricool
   - [ ] Conectar GitHub a Claude (https://claude.ai/connect-github) y crear dos repositorios vacíos: `MiCanal` (privado) y `MiCanal-videos` (público)
-  - [ ] Subir a mano en YouTube Studio el logo, el banner y la descripción del canal (la API no permite cambiar la foto de perfil)
+  - [ ] Pegar en YouTube Studio lo de `marca/CANAL_YOUTUBE.md` (nombre, @handle, logo, banner, descripción y palabras clave) y verificar el canal con el teléfono
 - **Pasos de Claude cuando el usuario termine:** conectar el repositorio, subir el código, probar la release y Metricool con el vídeo de prueba en borrador, y crear la tarea programada semanal (con el conector de Metricool y avisos al móvil).

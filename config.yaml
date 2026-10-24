@@ -1,6 +1,8 @@
 # Configuración del canal. Cambia aquí y todos los scripts lo respetan.
 canal:
-  nombre: "Marcas con Historia"   # PROVISIONAL hasta que el usuario lo confirme
+  nombre: "Marcas con Historia"
+  handle: "@MarcasConHistoriaES"
+  youtube_id: "UCrxZm4ofcvqjG3UUg0-nT0Q"
   lema: "Cómo nacen, crecen y caen las grandes empresas"
   frecuencia: "Un documental nuevo cada semana"
   nicho: "Historia de marcas, empresas, quiebras y escándalos empresariales"
