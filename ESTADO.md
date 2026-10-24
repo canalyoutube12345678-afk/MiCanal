@@ -108,3 +108,14 @@ _Última actualización: 2026-10-24_
 - El usuario dice que ha reconectado el conector, pero la sesión del 24/10 seguía viendo la cuenta antigua (canalyoutube123456789@gmail.com, brand 7594539, The Nations History).
 - **Al empezar la próxima sesión:** ejecutar `getBrandSettings` y comprobar que aparece `youtubeData = UCrxZm4ofcvqjG3UUg0-nT0Q`. Si sigue saliendo la cuenta antigua, el usuario tiene que cerrar sesión en metricool.com, desconectar y volver a conectar el conector iniciando sesión con la cuenta nueva.
 - Siguientes pasos: conectar GitHub (repos `MiCanal` privado y `MiCanal-videos` público) → subir el proyecto → prueba en borrador con Metricool → tarea semanal.
+
+
+## Situación al cerrar la sesión del 24/10/2026 (LEER PRIMERO)
+- ✅ Proyecto en GitHub: `canalyoutube12345678-afk/MiCanal` (privado, rama `main`).
+- ✅ Alojamiento de vídeos probado: `canalyoutube12345678-afk/MiCanal-videos` (público). `scripts/alojar.py` sube a la rama `video/<carpeta>` y la URL raw funciona (200). Las releases de GitHub NO funcionan en las sesiones en la nube (403).
+- ❌ **Metricool:** al terminar la sesión seguía viéndose solo la cuenta antigua (brand 7594539, The Nations History, UC8JkloSi2Y20MpvFGTFL-Jg), aunque el usuario dice que reconectó el conector con la cuenta nueva.
+- **PRIMER PASO de la nueva sesión:** `getBrandSettings`. Hay que encontrar una marca con `youtubeData = UCrxZm4ofcvqjG3UUg0-nT0Q`.
+  - Si aparece: prueba con `createScheduledPost` en **borrador** (`draft: true`) usando las URLs de `videos/0000_prueba_chupa_chups/metadata.json` → `alojamiento`. Comprobar que se ve en el planificador de Metricool y borrarla después. Luego crear la tarea programada semanal (nueva sesión en cada ejecución, con el repositorio MiCanal, el conector de Metricool y aviso push) con la instrucción "Sigue AUTOMATIZACION.md".
+  - Si NO aparece: el conector sigue en la cuenta antigua. El usuario tiene que cerrar sesión en metricool.com, entrar con la cuenta nueva y reconectar el conector (mejor en una ventana de incógnito).
+- **No tocar nunca** la marca de The Nations History.
+- Primer vídeo real previsto: "Cómo un Recadero de 14 Años Creó Zara" (`ideas/outliers.json`, id `zara_recadero`).
