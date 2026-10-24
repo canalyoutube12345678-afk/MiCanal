@@ -39,7 +39,18 @@ Lee `ESTADO.md` (decisiones, modo de revisión, vídeos publicados) e `ideas/ana
 - Genera la imagen base con `scripts/ia_imagen.py` (prompt de `miniatura.ia`) y compón la miniatura con `plantillas.miniatura_drama`; guárdala como `videos/NNNN_tema/miniatura.png`.
 - Mírala: el texto tiene que leerse en pequeño y el círculo tiene que señalar algo que tenga sentido.
 
-## 6. Alojar el vídeo (Metricool necesita una URL pública)
+## 6–7. PUBLICAR (método actual: API de YouTube; los pasos de Metricool de abajo ya no se usan)
+```bash
+# credenciales: variables de entorno YOUTUBE_CLIENT_SECRET_JSON y YOUTUBE_TOKEN_JSON (subir.py las lee solo)
+.venv/bin/python scripts/subir.py videos/NNNN_tema --programar "AAAA-MM-DD HH:MM"   # hora de Madrid
+```
+- Elige la hora: martes, jueves o sábado entre las 17:00 y las 19:00 (hora de Madrid), al menos 24 h después de la subida.
+- **Modo revisión:** antes de ejecutar `subir.py`, enseña al usuario la miniatura, el título y la descripción y espera su "ok".
+- Si la miniatura da 403, el canal no está verificado por teléfono: avisa al usuario en una línea y sigue sin miniatura.
+- Si después de subirlo el vídeo aparece bloqueado en privado (proyecto sin verificar), avisa al usuario y prepara la solicitud de auditoría de YouTube API Services.
+- No hagas nunca commit de `token.json` ni de `client_secret.json`: el repositorio es público.
+
+## 6 (antiguo, solo con Metricool). Alojar el vídeo (Metricool necesita una URL pública)
 ```bash
 .venv/bin/python scripts/alojar.py videos/NNNN_tema
 ```

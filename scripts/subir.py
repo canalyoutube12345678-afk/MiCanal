@@ -10,6 +10,7 @@ Uso:
   python scripts/subir.py --autorizar                           # solo autorizar la cuenta
 """
 import argparse
+import os
 import sys
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -27,6 +28,10 @@ def servicio():
     from google_auth_oauthlib.flow import InstalledAppFlow
     from googleapiclient.discovery import build
 
+    # en la nube, las credenciales llegan como variables de entorno (nunca en el repositorio, que es público)
+    for archivo, variable in ((CLIENTE, "YOUTUBE_CLIENT_SECRET_JSON"), (TOKEN, "YOUTUBE_TOKEN_JSON")):
+        if not archivo.exists() and os.environ.get(variable):
+            archivo.write_text(os.environ[variable], encoding="utf-8")
     creds = Credentials.from_authorized_user_file(TOKEN, SCOPES) if TOKEN.exists() else None
     if creds and creds.expired and creds.refresh_token:
         creds.refresh(Request())

@@ -1,6 +1,21 @@
 # ESTADO DEL CANAL (léelo siempre al empezar una sesión)
 
-_Última actualización: 2026-10-24_
+_Última actualización: 2026-10-24 (fin de la primera sesión)_
+
+## ⚡ RESUMEN PARA EMPEZAR (lo más reciente manda sobre lo de más abajo)
+- **El usuario quiere todo automatizado y que se le moleste lo mínimo.** Pregunta solo lo imprescindible y actúa.
+- **Publicación: API de YouTube (Google Cloud), NO Metricool.** Metricool gratis solo admite 1 marca, y la cuenta conectada a Claude es la de The Nations History (otro canal del usuario, UC8JkloSi2Y20MpvFGTFL-Jg: **no tocarla nunca**).
+- **Autorización hecha y probada** sobre el canal correcto UCrxZm4ofcvqjG3UUg0-nT0Q, con el proyecto de Google Cloud `marcasconhistoria`.
+  - ⚠️ **El repositorio `MiCanal` es PÚBLICO**: las credenciales NUNCA van al repositorio (GitHub ya bloqueó un intento).
+  - Las credenciales llegan como variables de entorno del entorno en la nube: `YOUTUBE_CLIENT_SECRET_JSON` y `YOUTUBE_TOKEN_JSON` (el contenido completo de cada JSON). `subir.py` las convierte en archivos solo.
+  - Si no están: el usuario sube `client_secret.json` al chat y se repite `scripts/autorizar.py` (enlace → "Permitir" → pegar la URL de localhost).
+  - Subida probada el 24/10: se subió un vídeo en privado y otro como oculto (unlisted), y se borraron. El oculto siguió oculto tras procesarse, así que de momento no se ve el bloqueo en privado de los proyectos sin verificar. Hay que confirmarlo con el primer vídeo real.
+  - **Miniatura personalizada: error 403.** Falta que el usuario verifique el canal con el teléfono (youtube.com/verify). Mientras tanto, subir sin miniatura personalizada y reintentar `thumbnails.set` en la siguiente ejecución.
+- **Ya aplicado por API en el canal:** el banner documental, la descripción, las palabras clave y el país ES.
+- **Pendiente manual del usuario** (la API no lo permite): nombre "Marcas con Historia", identificador @MarcasConHistoriaES, foto de perfil `marca/logo_800.png`, y verificación por teléfono.
+- **Siguiente paso:** crear la tarea programada semanal (sesión nueva en cada ejecución, con este repositorio) que siga `AUTOMATIZACION.md`, publicando con `scripts/subir.py --programar` en lugar de Metricool. Primer vídeo: "Cómo un Recadero de 14 Años Creó Zara" (`ideas/outliers.json` → `zara_recadero`).
+  - **Modo revisión:** antes de programar cada vídeo, se le enseña al usuario y se espera su "ok". Las 2–3 primeras semanas.
+- `scripts/alojar.py` y el repositorio `MiCanal-videos` solo hacen falta si algún día se usa Metricool; con la API de YouTube no se necesitan.
 
 ## Ficha del canal
 | | |
