@@ -12,5 +12,9 @@
   "idioma": "es",
   "privacidad": "private",
   "contenido_sintetico": false,
-  "duracion_s": 50.13
+  "duracion_s": 50.13,
+  "alojamiento": {
+    "video": "https://raw.githubusercontent.com/canalyoutube12345678-afk/MiCanal-videos/video/0000_prueba_chupa_chups/video.mp4",
+    "miniatura": "https://raw.githubusercontent.com/canalyoutube12345678-afk/MiCanal-videos/video/0000_prueba_chupa_chups/miniatura.png"
+  }
 }

@@ -41,17 +41,18 @@ Lee `ESTADO.md` (decisiones, modo de revisión, vídeos publicados) e `ideas/ana
 
 ## 6. Alojar el vídeo (Metricool necesita una URL pública)
 ```bash
-gh release create NNNN_tema videos/NNNN_tema/video_final.mp4 videos/NNNN_tema/miniatura.png \
-  --repo <usuario>/MiCanal-videos --title "<título>" --notes ""
+.venv/bin/python scripts/alojar.py videos/NNNN_tema
 ```
-La URL queda así: `https://github.com/<usuario>/MiCanal-videos/releases/download/NNNN_tema/video_final.mp4`
+Recomprime el vídeo a 95 MB como máximo (el límite de GitHub es 100 MB por archivo), lo sube a la rama `video/NNNN_tema` del repositorio público `MiCanal-videos` y guarda en `metadata.json` → `alojamiento` las URLs `raw.githubusercontent.com` del vídeo y de la miniatura.
+Las releases de GitHub no se pueden usar desde las sesiones en la nube (devuelven 403).
+Cuando el vídeo ya esté publicado en YouTube (en la ejecución de la semana siguiente), borra la rama: `scripts/alojar.py videos/NNNN_tema --borrar`.
 
 ## 7. Publicar con Metricool
 - `getBrandSettings` → `blogId` de la marca del canal correcto (ver `ESTADO.md`, "Canal de publicación").
 - `getBestTimeToPostByNetwork` (youtube, próximos 7 días) → elige la mejor franja.
 - **Modo revisión (`ESTADO.md` → `modo: revision`)**: antes de programar, enseña al usuario la miniatura, el título, la descripción y el enlace del vídeo, y espera su "ok". Si pide cambios, hazlos y vuelve a preguntar.
 - **Modo automático**: programa directamente.
-- `createScheduledPost` con `providers: [{"network":"youtube"}]`, `media: [URL]`, `videoThumbnailUrl: URL de miniatura.png`,
+- `createScheduledPost` con `providers: [{"network":"youtube"}]`, `media: [alojamiento.video]`, `videoThumbnailUrl: alojamiento.miniatura`,
   `youtubeData: {"title": …, "type": "video", "privacy": "public", "madeForKids": false, "category": "EDUCATION", "tags": […], "isAiGeneratedContent": false}`, y `text` = descripción.
 
 ## 8. Registrar

@@ -44,3 +44,6 @@ youtube:
   privacidad_por_defecto: "private"   # hasta comprobar la verificación de la API
   categoria: "27"                      # Education
   idioma: "es"
+
+alojamiento:
+  repositorio: "canalyoutube12345678-afk/MiCanal-videos"   # público: Metricool descarga de aquí
