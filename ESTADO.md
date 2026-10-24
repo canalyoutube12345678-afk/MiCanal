@@ -89,3 +89,14 @@ _Última actualización: 2026-10-24_
 - En la nube de Claude hace falta `SSL_CERT_FILE=/root/.ccr/ca-bundle.crt` (por el proxy). En el portátil no.
 - Desde la nube, Wikimedia a veces responde 429 (límite de peticiones): el script cambia solo a Openverse.
 - Si cambias una escena y vuelves a lanzar el comando, solo se rehace lo que ha cambiado (voz, imagen o escena).
+
+## Automatización (decidida el 24/10/2026)
+- **Dónde:** en la nube de Claude, con una tarea programada semanal que abre una sesión nueva y sigue `AUTOMATIZACION.md`.
+- **Publicación:** con Metricool (aplicación verificada: publica en público sin auditoría de la API). El vídeo se aloja en las releases de un repositorio público `MiCanal-videos`.
+- **modo: revision**. Las 2–3 primeras semanas el usuario da el "ok" antes de publicar; después se cambia a `modo: automatico`.
+- **Canal de publicación:** PENDIENTE. No es el canal que tiene Metricool ahora (UC8JkloSi2Y20MpvFGTFL-Jg); el usuario tiene que conectar el canal correcto en Metricool.
+- **Pasos del usuario (una vez):**
+  - [ ] Conectar el canal correcto en Metricool
+  - [ ] Conectar GitHub a Claude (https://claude.ai/connect-github) y crear dos repositorios vacíos: `MiCanal` (privado) y `MiCanal-videos` (público)
+  - [ ] Subir a mano en YouTube Studio el logo, el banner y la descripción del canal (la API no permite cambiar la foto de perfil)
+- **Pasos de Claude cuando el usuario termine:** conectar el repositorio, subir el código, probar la release y Metricool con el vídeo de prueba en borrador, y crear la tarea programada semanal (con el conector de Metricool y avisos al móvil).
